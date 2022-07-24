@@ -13,7 +13,22 @@ const routes = [
     path: '/sobre',
     name: 'Sobre',
     component: () => import('../views/AboutView.vue')
-  }
+  },
+  {
+    path: '/HomeTeste',
+    name: 'HomeTeste',
+    component: () => import('../views/HomeTeste.vue')
+  },
+  {
+    path: '/Index',
+    name: 'Index',
+    component: () => import('../views/Index.vue')
+  },
+  {
+    path: '/v-card',
+    name: 'Vcard',
+    component: () => import('../views/v-card.vue')
+  },
 ]
 
 const router = new VueRouter({

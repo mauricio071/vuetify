@@ -21,7 +21,7 @@
       >
 
       <div
-      v-for="tarefa, index in $store.state.tarefas"
+      v-for="(tarefa, index) in $store.state.tarefas"
       :key="index"
       >
         <Tarefa :tarefa="tarefa" />
